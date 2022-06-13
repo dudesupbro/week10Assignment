@@ -1,0 +1,15 @@
+{
+  "name": "week10assign",
+  "version": "1.0.0",
+  "description": "single page website with bootstrap styled table and form that allows users to add input as a new row to the table when submitted",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonard Ormseth",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  }
+}

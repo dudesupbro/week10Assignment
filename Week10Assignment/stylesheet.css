@@ -1,0 +1,10 @@
+span {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:0pt;
+}
+
+p {
+    font-size:larger;
+}
+

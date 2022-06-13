@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    
+
+    
+</head>
+<body class="container border border-dark"> <br>
+    <div class="card bg-light">
+        <div class="card-body border border-striped">
+            <div class="row">
+                <h2 class="text-center">Time Sheet Logger</h2>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="begin-date">Begin Date</label>
+                        <input type="date" class="form-control" id="begin-date">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-end-date">End Date</label>
+                        <input type="date" class="form-control" id="end-date">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group"> <br>
+                        <label for="hours">Hours</label>
+                        <input type="text" class="form-control" id="hours" placeholder="Hours">
+                    </div>
+                </div>                          
+            </div>
+            <br>
+            <div>
+                <button id="add"  class="btn btn-primary from-control">Add</button>  
+            </div>  
+        </div>
+    </div> <br>
+    <div class="border border-striped">
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Hours</th>
+            <th>Date Added</th>
+            <th>Begin Date</th>
+            <th>End Date</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+    <table>
+        <thread>
+            <tbody>
+            </tbody>
+        </thread>
+    </table>
+    </div>
+
+    <div class="d-flex justify-content-end">
+        <button type="button" class="btn btn-success" id="pay-button">Pay me!</button>
+    </div>
+
+    
+
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
